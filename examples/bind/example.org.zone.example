@@ -1,0 +1,14 @@
+; 문서용 예시. 실제 전체 zone에 덮어쓰지 말 것.
+; 운영 도메인/IP, SOA 값, serial 정책을 확인한 뒤 필요한 레코드만 병합.
+$ORIGIN example.org.
+$TTL 86400
+@ IN SOA ns.example.org. hostmaster.example.org. (
+    2026101401 ; Serial: 예시 값. 실제 현재 serial보다 증가시킬 것
+    28800      ; Refresh
+    14400      ; Retry
+    3600000    ; Expire
+    86400      ; Negative caching parameter
+)
+@       IN NS ns.example.org.
+ns      IN A  192.0.2.234
+agri    IN A  192.0.2.228

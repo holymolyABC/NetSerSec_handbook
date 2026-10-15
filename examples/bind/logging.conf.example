@@ -1,0 +1,24 @@
+// 예시 조각: 기존 logging 블록에 병합. 전체 named 설정 대체 금지.
+// 경로는 chroot 내부 directory "/var/named" 기준.
+logging {
+    channel default_debug {
+        file "data/named.run" versions 5 size 20m;
+        severity dynamic;
+    };
+    channel security_log {
+        file "data/security.log" versions 5 size 20m;
+        severity info;
+        print-time yes;
+        print-category yes;
+        print-severity yes;
+    };
+    channel transfer_log {
+        file "data/transfer.log" versions 5 size 20m;
+        severity info;
+        print-time yes;
+        print-category yes;
+        print-severity yes;
+    };
+    category security { security_log; };
+    category xfer-out { transfer_log; };
+};
