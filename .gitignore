@@ -1,0 +1,15 @@
+# 비밀과 실제 운영 덤프는 커밋하지 않음
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.pcap
+*.pcapng
+*.log
+*.bak
+*.bak-*
+private/
+evidence/raw/
+.DS_Store
