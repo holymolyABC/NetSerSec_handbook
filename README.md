@@ -19,6 +19,7 @@
 | DNS 장애·부하·패킷 확인 | [DNS 장애 진단](docs/dns/07-troubleshooting.md) |
 | 주소창에서 :1025 없애기 | [역방향 프록시](docs/server/web/reverse-proxy.md) |
 | SCP 백업 중 수신 파일 크기 실시간 확인 | [백업 진행 상태 확인](docs/server/backup/scp-progress-monitoring.md) |
+| Linux에서 exFAT 외장하드가 마운트되지 않음 | [exFAT 외장 디스크 마운트 오류 진단](docs/server/storage/exfat-usb-mount.md) |
 | 구형 Linux 시간 확인·보정 | [시간 점검](docs/server/linux/time-check.md) |
 | 실제 작업에서 무엇이 확인됐는지 보기 | [익명화한 DNS 운영 사례](docs/cases/2026-10-dns-operations.md) |
 | 새 매뉴얼·작업·장애 기록 만들기 | [공통 양식](templates/README.md) |
