@@ -4,7 +4,7 @@
 
 **저장소:** [holymolyABC/NetSerSec_handbook](https://github.com/holymolyABC/NetSerSec_handbook) · 공개 문서에는 익명화한 예제만 기록합니다.
 
-**문서 기준일:** 2026-10-15 · **초판:** v0.1 · **형식:** GitHub Markdown
+**문서 기준일:** 2026-10-16 · **초판:** v0.1 · **형식:** GitHub Markdown
 
 ## 빠른 찾기
 
@@ -18,6 +18,7 @@
 | 상위 NS와 실제 DNS 목록 비교 | [위임과 네임서버 점검](docs/dns/06-delegation.md) |
 | DNS 장애·부하·패킷 확인 | [DNS 장애 진단](docs/dns/07-troubleshooting.md) |
 | 주소창에서 :1025 없애기 | [역방향 프록시](docs/server/web/reverse-proxy.md) |
+| SCP 백업 중 수신 파일 크기 실시간 확인 | [백업 진행 상태 확인](docs/server/backup/scp-progress-monitoring.md) |
 | 구형 Linux 시간 확인·보정 | [시간 점검](docs/server/linux/time-check.md) |
 | 실제 작업에서 무엇이 확인됐는지 보기 | [익명화한 DNS 운영 사례](docs/cases/2026-10-dns-operations.md) |
 | 새 매뉴얼·작업·장애 기록 만들기 | [공통 양식](templates/README.md) |
@@ -28,7 +29,7 @@
 | 분류 | 범위 | 현재 상태 |
 |---|---|---|
 | [DNS](docs/dns/README.md) | BIND, 레코드, 조회, ACL, 로그, 위임 | 상세 매뉴얼 작성 |
-| [서버](docs/server/README.md) | Linux·Windows, 웹/WAS, 시간, 스토리지·백업 | 시간·웹 프록시 작성 |
+| [서버](docs/server/README.md) | Linux·Windows, 웹/WAS, 시간, 스토리지·백업 | 시간·웹 프록시·백업 진행 확인 작성 |
 | [네트워크](docs/network/README.md) | 스위치, 라우팅, 무선, VLAN, 접속 경로 | 분류와 작성 기준 마련 |
 | [보안](docs/security/README.md) | 방화벽, VPN, 취약점 조치, 접근 통제 | DNS 트래픽 대응 기준 작성 |
 | [작업 사례](docs/cases/2026-10-dns-operations.md) | 실제 증거·변경·검증·미완료 사항 | DNS 사례 작성 |
